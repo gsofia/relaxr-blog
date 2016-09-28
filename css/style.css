@@ -1,0 +1,169 @@
+/* Box Model */
+* {
+  -moz-box-sizing: border-box; /* Firexfox */
+  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box; /* IE */
+}
+
+a {
+	text-decoration: none;
+}
+
+#about-relaxr {
+	font-weight: 300;
+	font-size: 22px;
+}
+
+#ad {
+	border: solid black .5px;
+	padding: 20px 5px;
+}
+
+aside {
+	width: 240px;
+  	height: 740px;
+  	float: right;
+  	padding: 20px 5px 5px 5px;
+  	margin-right: 10px;
+}
+
+.blog_photo {
+	width: 100%;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif 
+}
+
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+#container {
+	
+}
+
+
+footer {
+	clear:both;
+	background-color: #121212;
+	color: #f0efef;
+	display: block;
+	padding: 40px 15px 80px 15px;
+	text-align: center;
+}
+
+
+footer img{
+	padding: 20px 10px;
+}
+
+#footer-logo {
+	font-size: 48px;
+	font-weight: 800;
+	color: #f9e42e;
+	text-align: center;
+	padding: 10px 20px;
+}
+
+
+h2 {
+	font-weight: 600;
+	font-size: 40px;
+}
+
+h3 {
+	font-weight: 800;
+	font-size: 32px;
+}
+
+header {
+	background-color:#033048;
+	overflow: hidden;
+	padding: 10px;
+}
+
+#header-li {
+	font-weight: 600;
+	font-size: 24px;
+	color: #f9e42e;
+	float: right;
+	display: block;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+hr {
+	clear: both;
+}
+
+
+.inner-wrapper {
+	width: 100%;
+	height: 100%;
+}
+
+#learn-more {
+	font-weight: 600;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+#main-column {
+	width: 700px;
+  	height: 1200px;
+  	float: left;
+  	padding: 20px 20px 20px 20px;
+  	margin-left: 20px;
+}
+
+.nav {
+	width: 70%;
+	float: right;
+	padding: 10px;
+}
+
+.read-more {
+	float:right;
+	padding: 5px;
+}
+
+.relaxr {
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 600; 
+	font-size: 40px;
+	float: left;
+	display: block;
+	width: 20%;
+	padding-right: 10px;
+}
+
+ul {
+	list-style-type: none;
+}
+
+#yellow-stripe {
+	background-color: #f9e42e;
+	padding: 40px 15px 40px 15px;
+	clear: both;
+
+/*
+a: link, a:visted {
+	color: yellow;
+}
+
+This styles a link with a specific class
+a.logo: link,
+a.logo: visited {
+	
+}
+
+
+*/
