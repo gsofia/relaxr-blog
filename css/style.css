@@ -7,6 +7,7 @@
 
 a {
 	text-decoration: none;
+	color:#121212;
 }
 
 #about-relaxr {
@@ -44,6 +45,14 @@ body {
 
 #container {
 	
+}
+
+.firstcharacter {
+	float:left;
+	color: #606161;
+	font-size: 75px;
+	line-height: 60px;
+	padding-top: 4px 8px 0px 3px;
 }
 
 footer {
@@ -148,6 +157,8 @@ hr {
 .read-more {
 	float:right;
 	padding: 10px;
+	font-size: 22px;
+	font-weight: 600;
 }
 
 .relaxr {
