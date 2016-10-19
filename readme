@@ -31,3 +31,20 @@ Business tips"
 About text/paragraph - 22px light
 Proin sed justo vel sapien varius auctor. Proin scelerisque massa at luctus tincidunt. Fusce porttitor, sapien sed tincidunt fringilla.
 Learn More - Semibold, 22px
+
+JQuery / Javascript 
+On clicking of the 'Sign up' button:
+- Display an alert that says "We are not currently taking sign ups"
+- Then change the text of the button to say "No Sign Ups!”
+
+If a user clicks "Read More":
+- Have an extra paragraph show using $.slideDown() or $.show() and change the link to say “Read Less”
+
+If a user clicks "Read Less":
+- Have an extra paragraph hide using $.slideUp() or $.hide() and change the link to say “Read More”
+
+If a user clicks “Learn More” in the sidebar:
+- Have an extra paragraph show using $.slideDown() or $.show() and change the link to say “Learn Less”
+
+If a user clicks "Learn Less” in the sidebar:
+- Have an extra paragraph hide using $.slideUp() or $.hide() and change the link to say “Learn More”

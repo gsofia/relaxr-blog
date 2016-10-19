@@ -2,7 +2,7 @@
 <html lang="en">
 	<head>
     	<meta charset="utf-8">
-    	<meta name="description" content="Your description goes here">
+    	<meta name="Relaxr Blog" content="A blog dedicated to Relaxr">
     	<meta name="keywords" content="one, two, three">
 
 		<title>Relaxr Blog</title>
@@ -11,6 +11,8 @@
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,800" rel="stylesheet">
 		<link rel="stylesheet" href="css/reset.css">
 		<link rel="stylesheet" href="css/style.css">
+
+		<script src="http://code.jquery.com/jquery-latest.min.js"></script>
 
 	</head>
 	
@@ -33,17 +35,22 @@
 		
 			<section id="main-column">
 
-				<div>
+				<article>
 
 					<h2>How I implemented Relaxr in 2 weeks and changed my life</h2>
 				
 					<img src="images/blog_photo1.jpg">
 				
 					<p> <span class="firstcharacter">L</span> orem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eget aliquam magna, vel pellentesque justo. Aliquam erat volutpat. Quisque eget imperdiet orci. Quisque varius posuere arcu nec elementum. Aenean porttitor, tortor sed dapibus ornare, libero dui fermentum augue, a feugiat turpis elit non eros.</p>
-				</div>
 
-				<div class="read-more">
-					<a href="">Read more > </a>
+					<br>
+
+					<p class="p1">Proin sed justo vel sapien varius auctor. Proin scelerisque massa at luctus tincidunt. Fusce porttitor, sapien sed tincidunt fringilla.</p>
+
+				</article>
+
+				<div class="readMore">
+					<button class="readStatus" id="button1">Read More > </button>
 				</div>	
 
 				<hr>
@@ -55,10 +62,14 @@
 					<img src="images/blog_photo2.jpg">
 				
 					<p> <span class="firstcharacter">L</span> orem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eget aliquam magna, vel pellentesque justo. Aliquam erat volutpat. Quisque eget imperdiet orci. Quisque varius posuere arcu nec elementum. Aenean porttitor, tortor sed dapibus ornare, libero dui fermentum augue, a feugiat turpis elit non eros. </p>
+
+					<br>
+
+					<p class="p2">Proin sed justo vel sapien varius auctor. Proin scelerisque massa at luctus tincidunt. Fusce porttitor, sapien sed tincidunt fringilla.Proin sed justo vel sapien varius auctor. Proin scelerisque massa at luctus tincidunt. Fusce porttitor, sapien sed tincidunt fringilla.</p>
 				</div>
 
-				<div class="read-more">
-					<a href="">Read more > </a>
+				<div class="readMore">
+					<button class="readStatus" id="button2">Read More > </button>
 				</div>	
 
 				<hr>				
@@ -78,8 +89,15 @@
 					<br>		
 			
 					<h3>About Relaxr</h3>
-						<p id="about-relaxr">Proin sed justo vel sapien varius auctor. Proin scelerisque massa at luctus tincidunt. Fusce porttitor, sapien sed tincidunt fringilla.</p>
-						<a href="" id="learn-more">Learn More</a>
+						<p class="about-relaxr">Proin sed justo vel sapien varius auctor. Proin scelerisque massa at luctus tincidunt. Fusce porttitor, sapien sed tincidunt fringilla.</p>
+
+						<br>
+
+						<p class ="about-relaxr" id ="p3">Proin sed justo vel sapien varius auctor. Proin scelerisque massa at luctus tincidunt. Fusce porttitor, sapien sed tincidunt fringilla.</p>
+
+						<br>
+
+						<button id="learnMore">Learn More</button>
 
 					<br>
 					<br>
@@ -90,7 +108,7 @@
 				</aside>
 
 			<div id="yellow-stripe">
-					<div id="footer-button"> <p id="sign-up">Sign Up Now!</p> </div>
+					<div id="footerButton"> <p id="signUp">Sign Up Now!</p> </div>
 			</div>	
 			
 			<footer>
@@ -104,6 +122,7 @@
 			
 		</div><!-- #container -->
 		
+		<script src="js/main.js"></script>
 		
 	</body>
 </html>

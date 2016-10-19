@@ -10,7 +10,7 @@ a {
 	color:#121212;
 }
 
-#about-relaxr {
+.about-relaxr {
 	font-weight: 300;
 	font-size: 22px;
 }
@@ -30,7 +30,14 @@ aside {
 
 
 body {
-	font-family: 'Open Sans', sans-serif 
+	font-family: "Open Sans", sans-serif; 
+}
+
+button.readStatus {
+	background: none;
+	border: none;
+	font-size: 22px;
+	font-weight: 600;
 }
 
 /* Clear fix hack */
@@ -64,7 +71,7 @@ footer {
 	text-align: center;
 }
 
-#footer-button {
+#footerButton {
 	background-color: #033048;
 	width: 250px;
 	height: 50px;
@@ -128,20 +135,22 @@ hr {
 	height: 100%;
 }
 
-#learn-more {
+#learnMore {
 	font-weight: 600;
 	font-size: 22px;
 	text-decoration: none;
+	background: none;
+	border: none;
 }
 
  
 #main-column {
 	width: 700px;
-  	height: 1200px;
   	float: left;
   	padding: 20px 20px 20px 20px;
   	margin-left: 20px;
 }
+
 
 .nav {
 	width: 70%;
@@ -154,7 +163,12 @@ hr {
 	padding: 10px 0px 10px 0px;
 }
 
-.read-more {
+.p1, .p2 {
+	display: none;
+
+}
+
+.readMore {
 	float:right;
 	padding: 10px;
 	font-size: 22px;
@@ -177,7 +191,7 @@ section div img {
 	width: 100%;
 }
 
-#sign-up {
+#signUp {
 	color: #ffffff;
 	text-align: center;
 	padding-top: 15px;
